@@ -51,7 +51,7 @@ Powered by **OpenCV**, **MediaPipe**, and a custom implementation of the **One E
 
 
 
-**Usage**
+## Usage
 Look for the 🖐 icon in your macOS Menu Bar.
 
 Click "Show Preview" from the dropdown menu if you want to see the webcam feed and hand skeleton overlay in real time.
@@ -60,7 +60,7 @@ Click "Show Preview" from the dropdown menu if you want to see the webcam feed a
 
 
 
-***Tech Stack**
+## Tech Stack
 Computer Vision: OpenCV, MediaPipe Hands
 
 Signal Processing: One Euro Filter (jitter reduction & adaptive smoothing)
