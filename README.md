@@ -4,7 +4,7 @@ A lightweight macOS utility that allows you to control your media playback (**Sp
 
 Powered by **OpenCV**, **MediaPipe**, and a custom implementation of the **One Euro Filter** for ultra-smooth tracking, featuring a native **macOS Menu Bar** interface.
 
----
+
 
 ## Features
 
@@ -14,7 +14,7 @@ Powered by **OpenCV**, **MediaPipe**, and a custom implementation of the **One E
 * **macOS Native Integration:** Runs quietly in the **Menu Bar** via `rumps` with a live optional camera preview window.
 * **Auto-Recovery:** Automatic webcam reconnection handling if the camera feed drops or freezes (e.g., after wake from sleep).
 
----
+
 
 ## 🦾 Supported Gestures
 
@@ -25,7 +25,7 @@ Powered by **OpenCV**, **MediaPipe**, and a custom implementation of the **One E
 | **Open Palm (Swipe)** | **Track Navigation** | Swipe horizontally to switch tracks (Next/Previous) or vertically to Play/Pause. |
 | **Fist (Hold for 1s)** | **Toggle Tracking** | Hold a closed fist for 1 second to temporarily pause or resume gesture tracking. |
 
----
+
 
 ## Requirements & Limitations
 
@@ -33,7 +33,7 @@ Powered by **OpenCV**, **MediaPipe**, and a custom implementation of the **One E
 * **Hardware:** A working webcam (built-in or external).
 * **Python Version:** Python 3.8 – 3.12 recommended.
 
----
+
 
 ## Installation & Setup
 
@@ -48,3 +48,23 @@ Powered by **OpenCV**, **MediaPipe**, and a custom implementation of the **One E
    pip install -r requirements.txt
 4. **Run the application:**
    python main.py
+
+
+
+**Usage**
+Look for the 🖐 icon in your macOS Menu Bar.
+
+Click "Show Preview" from the dropdown menu if you want to see the webcam feed and hand skeleton overlay in real time.
+
+**Make sure your hand is well-lit and clearly visible to the webcam.**
+
+
+
+***Tech Stack**
+Computer Vision: OpenCV, MediaPipe Hands
+
+Signal Processing: One Euro Filter (jitter reduction & adaptive smoothing)
+
+Math & Utilities: NumPy
+
+macOS UI: rumps, AppleScript
