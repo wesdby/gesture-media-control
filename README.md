@@ -16,7 +16,7 @@ Powered by **OpenCV**, **MediaPipe**, and a custom implementation of the **One E
 
 
 
-## 🦾 Supported Gestures
+## Supported Gestures
 
 |.         Gesture         |        Action      |                                                 Description                                                    | 
 | :--- | :--- | :--- |
