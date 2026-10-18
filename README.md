@@ -38,6 +38,13 @@ Powered by **OpenCV**, **MediaPipe**, and a custom implementation of the **One E
 ## Installation & Setup
 
 1. **Clone the repository:**
-   ```bash
    git clone [https://github.com/wesdby/gesture-media-control.git](https://github.com/wesdby/gesture-media-control.git)
    cd gesture-media-control
+2. **Create a virtual environment (recommended):**
+   python3 -m venv venv
+   source venv/bin/activate
+
+3. **Install dependencies:**
+   pip install -r requirements.txt
+4. **Run the application:**
+   python main.py
